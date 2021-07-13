@@ -6,13 +6,27 @@
 
 ## 🚀 Descrição
 
-Projeto de um site e-commerce para PetShop realizado durante uma disciplina de Programação Web.
+Projeto de um site e-commerce para PetShop realizado durante a disciplina de Programação Web ministrada pelo professor Carlos Bazilio (UFF).
 <br>
-[Veja o conceito completo aqui](https://www.figma.com/file/Ju7cT18t7xf5hnAjrfMehC/PetFeliz?node-id=0%3A1)
+* [Veja o conceito de telas aqui](https://www.figma.com/file/Ju7cT18t7xf5hnAjrfMehC/PetFeliz?node-id=0%3A1)
+* 
 <br>
-- [HTML/CSS/Javascript]
 
-### Veja o deploy do projeto [neste link](https://) (não implementando ainda)
+## Tecnologias
+
+* HTML5
+* SCSS
+* TypeScript
+* NodeJS
+* PostgreSQL
+
+## Alunos
+
+- Allan Martins
+- Pablo Montel
+
+## Deploy
+- Veja o deploy do projeto [neste link](https://) (não implementado ainda)
 
 ## 💻 Desafios
 
@@ -24,6 +38,7 @@ Projeto de um site e-commerce para PetShop realizado durante uma disciplina de P
 6) Na realização da compra um e-mail deve ser fornecido pelo comprador de forma que o comprovante da compra deva ser enviado para este e-mail. O comprador também deve informar o CEP para entrega. Vocês devem usar o serviço https://viacep.com.br/ para obter detalhes do CEP informado.
 7) O projeto deve estar armazenado no Github desde o primeiro dia.
 8)  A demonstração do sistema pode ser realizada usando Docker (opcional).
+
 <!-- 
 <p align="center">
   <img alt="" src="" width="100%">
