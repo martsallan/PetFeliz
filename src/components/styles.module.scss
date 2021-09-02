@@ -1,0 +1,80 @@
+.logo {
+   width: 10rem;
+}
+
+.headerContainer {
+   background: var(--white);
+   height: 4.5rem;
+
+   display: flex;
+   align-items: center;
+
+   padding: 2rem 4rem;
+
+   border-bottom: 1px solid var(--gray-100);
+
+   p {
+      margin: 0 0 0 0.5rem;
+   }
+   nav {
+      margin-left: 1rem;
+      padding: 0.25rem 0 0.25rem 0rem;
+      border-left: 1px solid var(--gray-100);
+   }
+
+   span {
+      margin-left: auto;
+   }
+
+   nav li {
+      display: inline;
+      margin: 0 0 0 1rem;
+   }
+   nav a {
+      // text-transform: uppercase;
+      color: var(--gray-500);
+
+      text-decoration: none;
+      position: relative;
+
+      .focus{
+         color: var(--purple-logo);
+      }
+
+      &:hover {
+         color: var(--purple-logo);
+         font-weight: bold;
+      }
+   }
+   .icon2{
+      align-items: center;
+      margin-left: 0.3rem;
+      filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+   }
+   .focus{
+      color: var(--purple-logo);
+      font-weight: bold;
+   }
+}
+
+.navRightSide {
+   display: flex;
+   margin: 0 0 0 1rem;
+}
+
+.imageButton {
+   display: flex;
+   margin: 0 0 0 1rem;
+   border: none;
+   background-color: white;
+}
+
+.imageButton:hover {
+   & > .icon {
+      filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+   }
+}
+
+.icon:active{
+   filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+}
