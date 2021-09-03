@@ -3,14 +3,13 @@
 }
 
 .headerContainer {
+   width: 100%;
+   position: fixed;        
    background: var(--white);
    height: 4.5rem;
-
    display: flex;
    align-items: center;
-
    padding: 2rem 4rem;
-
    border-bottom: 1px solid var(--gray-100);
 
    p {

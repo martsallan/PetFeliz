@@ -1,0 +1,17 @@
+.footerContainer {
+   background: var(--white);
+   // height: 4.5rem;
+
+   display: flex;
+   // align-items: center;
+   position:static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+
+   padding: 2rem 4rem;
+
+   border-top: 1px solid var(--gray-100);
+}
