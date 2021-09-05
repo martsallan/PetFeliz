@@ -1,8 +1,7 @@
 import React from "react"
-import styles from "../styles/Catalogo.module.scss"
+import styles from "../styles/Catalog.module.scss"
 import Item from "../components/Item/Item"
 import Produto from "../core/Produto"
-import { SearchIcon } from "../components/Icons"
 
 export default function Catalogo() {
 
