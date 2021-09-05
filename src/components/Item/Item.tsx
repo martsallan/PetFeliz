@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
-import styles from "../styles/Item.module.scss"
-import Produto from "../core/Produto"
+import styles from "./styles.module.scss"
+import Produto from "../../core/Produto"
 import Link from "next/link"
 
 interface ItemProps {
