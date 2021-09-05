@@ -4,7 +4,7 @@
 
 .headerContainer {
    width: 100%;
-   position: fixed;        
+   position: fixed;
    background: var(--white);
    height: 4.5rem;
    display: flex;
@@ -25,6 +25,26 @@
       margin-left: auto;
    }
 
+   .categoryButton {
+      display: inline;
+      border: none;
+      
+      background-color: white;
+   }
+   .categoryButton:hover {
+      color: var(--purple-logo);
+      font-weight: bold;
+      & > .icon2 {
+         filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg)
+            brightness(86%) contrast(106%);
+      }
+   }
+
+   .icon2 {
+      align-items: center;
+      margin-left: 0.3rem;
+   }
+
    nav li {
       display: inline;
       margin: 0 0 0 1rem;
@@ -36,7 +56,7 @@
       text-decoration: none;
       position: relative;
 
-      .focus{
+      .focus {
          color: var(--purple-logo);
       }
 
@@ -45,12 +65,8 @@
          font-weight: bold;
       }
    }
-   .icon2{
-      align-items: center;
-      margin-left: 0.3rem;
-      filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
-   }
-   .focus{
+
+   .focus {
       color: var(--purple-logo);
       font-weight: bold;
    }
@@ -70,10 +86,12 @@
 
 .imageButton:hover {
    & > .icon {
-      filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+      filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg)
+         brightness(86%) contrast(106%);
    }
 }
 
-.icon:active{
-   filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+.icon:active {
+   filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg)
+      brightness(86%) contrast(106%);
 }

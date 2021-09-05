@@ -1,17 +1,98 @@
 .footerContainer {
+
+   
+    
    background: var(--white);
-   // height: 4.5rem;
+   height: 9rem;
 
    display: flex;
-   // align-items: center;
-   position:static;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
+   position: static;
 
-   padding: 2rem 4rem;
+   width: 100%;
+
+   padding: 1rem 4rem;
 
    border-top: 1px solid var(--gray-100);
+
+   p {
+      font-weight: bold;
+   }
+
+   nav {
+      display: flex;
+      width: 50%;
+      flex-direction: column;
+   }
+
+   nav ul {
+      position: relative;
+      margin: 1rem 0rem 0rem 0rem;
+   }
+   nav li {
+      display: flex;
+
+      padding: 0.2rem 0rem;
+   }
+   li:nth-child(odd) {
+      clear: both; /* forçamos a quebra de linha por segurança...  */
+      float: left; /* ... e o alinhamos à esquerda. */
+      width: 20%; /* Aplicamos 50% na esquerda, os da direita "herdam" o resto.   */
+   }
+
+   nav a {
+      // text-transform: uppercase;
+      color: var(--gray-500);
+
+      text-decoration: none;
+      position: relative;
+
+      .focus {
+         color: var(--purple-logo);
+      }
+
+      &:hover {
+         color: var(--purple-logo);
+         font-weight: bold;
+      }
+   }
+
+   .rightSideContainer {
+      display: flex;
+      width: 50%;
+      color: var(--gray-500);
+      align-items: center;
+      justify-content: flex-end;
+
+      // .container{
+      //    display: flex;
+      //    flex-direction: column;
+      //    justify-content: center;
+      //    background-color: aqua;
+      // }
+
+      div {
+         margin: 1rem 0.5rem 0rem 0.5rem;
+         p {
+            text-align: center;
+            margin: 0;
+         }
+      }
+      div img {
+         cursor: pointer;
+         &:nth-child(2) {
+            margin: 0 0.5rem;
+         }
+         &:hover {
+            filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg)
+               brightness(86%) contrast(106%);
+         }
+      }
+   }
+
+   // @media (max-width: 768px) {
+   //    li:nth-child(odd) {
+   //       background-color: red;
+   //       width: 45%;
+   //    }
+   // }
 }
