@@ -21,7 +21,7 @@ export function Footer() {
                   </Link>
                </li>
                <li>
-                  <Link href="/notReady">
+                  <Link href="/catalogo">
                      <a>Categorias</a>
                   </Link>
                </li>

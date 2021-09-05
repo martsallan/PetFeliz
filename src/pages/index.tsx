@@ -2,8 +2,10 @@ import styles from '../styles/Home.module.scss'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <p>Home</p>
-    </div>
+    <section className={styles.container}>
+      <div className={styles.announce}>
+        
+      </div>
+    </section>
   )
 }

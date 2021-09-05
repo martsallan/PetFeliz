@@ -21,7 +21,7 @@ export function Header() {
                   </Link>
                </li>
                <li>
-                  <Link href="/notReady" passHref={true}>
+                  <Link href="/catalogo" passHref={true}>
                      <button className={styles.categoryButton}>
                         Categorias
                         <img
