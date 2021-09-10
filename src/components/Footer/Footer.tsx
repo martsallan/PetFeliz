@@ -1,14 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import format from "date-fns/format";
-import ptBR from "date-fns/locale/pt-BR";
 
 import styles from "./styles.module.scss";
 
 export function Footer() {
-   const currentDate = format(new Date(), "EEEEEE, d MMMM", {
-      locale: ptBR,
-   });
 
    return (
       <footer className={styles.footerContainer}>
@@ -21,7 +16,7 @@ export function Footer() {
                   </Link>
                </li>
                <li>
-                  <Link href="/catalogo">
+                  <Link href="/catalog">
                      <a>Categorias</a>
                   </Link>
                </li>
@@ -42,6 +37,9 @@ export function Footer() {
                </li>
             </ul>
          </nav>
+         <div className={styles.centerContainer}>
+            <p>PetFeliz LTDA.</p> © 2021. All Rights Reserved
+         </div>
          <div className={styles.rightSideContainer}>
             <div className={styles.container}>
                <p>Redes Sociais</p>

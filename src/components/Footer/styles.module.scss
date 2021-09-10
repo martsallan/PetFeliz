@@ -1,7 +1,4 @@
 .footerContainer {
-
-   
-    
    background: var(--white);
    height: 9rem;
 
@@ -53,6 +50,19 @@
       &:hover {
          color: var(--purple-logo);
          font-weight: bold;
+      }
+   }
+
+   .centerContainer{
+      display: flex;
+      width: 50%;
+      color: var(--gray-500);
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      p{
+         color: var(--purple-logo)
       }
    }
 

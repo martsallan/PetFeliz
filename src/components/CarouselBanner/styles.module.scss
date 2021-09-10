@@ -1,8 +1,13 @@
 $blue-green-400: #076b81;
 // @use '../../styles/global.scss';
 
+.container{
+   width: 100%;
+   box-shadow: 0rem 0.2rem 0.8rem black;
+}
+
 .card {
-   width: 95%;
+   // width: 95%;
 
    background: $blue-green-400;
    height: 22rem;
@@ -14,6 +19,7 @@ $blue-green-400: #076b81;
 
    border-radius: 0.2rem;
    box-shadow: 0rem 0.2rem 0.8rem black;
+   margin-bottom: 60px;
 
    h1 {
       color: var(--white);

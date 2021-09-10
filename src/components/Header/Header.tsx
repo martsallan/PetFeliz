@@ -1,18 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import format from "date-fns/format";
-import ptBR from "date-fns/locale/pt-BR";
 
 import styles from "./styles.module.scss";
 
 export function Header() {
-   const currentDate = format(new Date(), "EEEEEE, d MMMM", {
-      locale: ptBR,
-   });
 
    return (
       <header className={styles.headerContainer}>
-         <img className={styles.logo} src="/logo.png" alt="Search" />
+         <img className={styles.logo} src="/logo.png" alt="PetFeliz" />
          <nav>
             <ul>
                <li>
@@ -21,12 +16,12 @@ export function Header() {
                   </Link>
                </li>
                <li>
-                  <Link href="/catalogo" passHref={true}>
+                  <Link href="/catalog" passHref={true}>
                      <button className={styles.categoryButton}>
                         Categorias
                         <img
                            className={styles.icon2}
-                           src="/vector.svg"
+                           src="/arrow.svg"
                            width="12"
                            height="12"
                            alt="Search"
@@ -61,7 +56,7 @@ export function Header() {
                   alt="Search"
                />
             </button>
-            <p>Procurar item...</p>
+            <p>Procurar</p>
             <button className={styles.imageButton}>
                <img
                   className={styles.icon}
@@ -75,8 +70,8 @@ export function Header() {
                <img
                   className={styles.icon}
                   src="/account.svg"
-                  width="20"
-                  height="20"
+                  width="28"
+                  height="28"
                   alt="Account"
                />
             </button>
