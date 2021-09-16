@@ -16,19 +16,19 @@ function App() {
       <div className="grid-container">
             <header className="row j-space-between">
                 <div className="">
-                    <Link className="brand" to="index.html">PetFeliz</Link>
+                    <Link className="brand" to="/">PetFeliz</Link>
                 </div>
                 <div className="">
-                    <Link to="cart.html">Carrinho 
+                    <Link to="/cart">Carrinho 
                     {cartItems.length > 0 && (
                       <span className="badge">{cartItems.length}</span>
                     )}
                     </Link>
-                    <Link to="signIn.html">Logar</Link>
+                    <Link to="/signin">Logar</Link>
                 </div>
         </header>
         <main>
-        <Route path="/cart/:id?" component={CartPage}></Route>
+          <Route path="/cart/:id?" component={CartPage}></Route>
           <Route path='/' component={HomePage} exact></Route>
           <Route path='/produto/:id' component={ProductPage}></Route>
         </main>
