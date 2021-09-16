@@ -8,15 +8,14 @@ Projeto de um site e-commerce para PetShop realizado durante a disciplina de Pro
 <br>
 
 - [Veja o conceito de telas aqui](https://www.figma.com/file/Ju7cT18t7xf5hnAjrfMehC/PetFeliz?node-id=0%3A1)
-<br>
 
 ## Tecnologias
 
 - HTML5
-- SCSS
-- TypeScript
+- CSS
+- JavaScript
 - NodeJS
-- PostgreSQL
+- MongoDB
 
 ## Alunos
 
