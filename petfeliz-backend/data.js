@@ -1,7 +1,24 @@
+import bcrypt from 'bcryptjs'
+
 const data = {
+
+    users: [
+        {
+            name: 'Pablo Montel',
+            email: 'pmontel@hotmail.com',
+            password: bcrypt.hashSync('12345', 8),
+            phoneNumber: '21971490667',
+            isAdmin: true,
+        },
+        {
+            name: 'Allan Martins',
+            email: 'am@hotmail.com',
+            password: bcrypt.hashSync('12345', 8),
+            phoneNumber: '22998455674',
+        },
+    ],
     products: [
         {
-            _id: '1',
             name: 'produto 1',
             category: 'categoria 1',
             image: 'https://amici.com.br/wp-content/uploads/sites/83/2020/04/imagem-indispon%C3%ADvel.jpg',
@@ -11,7 +28,6 @@ const data = {
             description: 'Descricao produto 1',
         },
         {
-            _id: '2',
             name: 'produto 2',
             category: 'categoria 2',
             image: 'https://amici.com.br/wp-content/uploads/sites/83/2020/04/imagem-indispon%C3%ADvel.jpg',
@@ -21,7 +37,6 @@ const data = {
             description: 'Descricao produto 2',
         },
         {
-            _id: '3',
             name: 'produto 3',
             category: 'categoria 3',
             image: 'https://amici.com.br/wp-content/uploads/sites/83/2020/04/imagem-indispon%C3%ADvel.jpg',
@@ -31,7 +46,6 @@ const data = {
             description: 'Descricao produto 3',
         },
         {
-            _id: '4',
             name: 'produto 4',
             category: 'categoria 4',
             image: 'https://amici.com.br/wp-content/uploads/sites/83/2020/04/imagem-indispon%C3%ADvel.jpg',
@@ -41,7 +55,6 @@ const data = {
             description: 'Descricao produto 4',
         },
         {
-            _id: '5',
             name: 'produto 5',
             category: 'categoria 5',
             image: 'https://amici.com.br/wp-content/uploads/sites/83/2020/04/imagem-indispon%C3%ADvel.jpg',

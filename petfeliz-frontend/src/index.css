@@ -65,7 +65,7 @@ a.brand {
   font-weight: bold;
 }
 
-.badge{
+.badge {
   background-color: #f02020;
   color: #ffffff;
   border-radius: 50%;
@@ -119,7 +119,7 @@ h2 {
 .col-2 {
   flex: 2 1 50rem;
 }
-.min-30{
+.min-30 {
   min-width: 30rem;
 }
 
@@ -128,7 +128,7 @@ img {
   border-radius: 1.5rem;
 }
 
-img.small{
+img.small {
   max-width: 5rem;
   width: 100%;
 }
@@ -181,12 +181,54 @@ button:hover {
   font-size: 2rem;
 }
 
-/* classes de cores */
+.loading {
+  display: block !important;
+}
 
+/* classes de cores */
 .success {
   color: #20a020;
 }
 
 .danger {
   color: #a02020;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  right: 0.5rem;
+  min-width: 12rem;
+  padding: 1rem;
+  z-index: 1;
+  background-color: var(--secondary-color);
+  margin: 0;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* checkout */
+
+.checkout-steps > div {
+  text-align: center;
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+.checkout-steps > div.active {
+  border-top-color: var(--third-color);
+  color: var(--third-color);
 }

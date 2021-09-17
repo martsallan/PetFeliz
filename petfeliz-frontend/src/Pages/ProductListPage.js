@@ -5,7 +5,7 @@ import MessageScreen from '../components/MessageScreen';
 import { useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../actions/productActions';
 
-export default function HomePage() {
+export default function ProductListPage() {
 
   const dispatch = useDispatch();
   const productList = useSelector(state => state.productList);
