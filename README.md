@@ -26,21 +26,42 @@ Projeto de um site e-commerce para PetShop realizado durante a disciplina de Pro
 
 - Instale as dependencias:
 
+Frontend (a partir da pasta raiz):
+
 ```bash
+	cd petfeliz-frontend
+	#then
   npm install
   #or
   yarn install
 ```
 
-- Inicie o servidor de desenvolvimento:
+- Inicie o servidor:
 
 ```bash
-  npm run dev
+  npm run serve
   #or
-  yarn dev
+  yarn serve
 ```
 
-- No browser acesse [http://localhost:3000](http://localhost:3000).
+Backend (a partir da pasta raiz):
+
+```bash
+	cd petfeliz-backend
+	#then
+  composer install
+  #then
+  php artisan key:generate
+```
+
+- Inicie o servidor:
+
+```bash
+  php artisan serve
+```
+
+- Para o frontend acesse no browser [http://localhost:8080](http://localhost:8080).
+- Para o backend acesse no browser [http://localhost:8000](http://localhost:8000).
 
 ## Deploy
 

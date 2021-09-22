@@ -1,0 +1,249 @@
+.cartContainer {
+    padding-top: 4rem;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.emptyCart {
+    div {
+        // border: 1px solid var(--gray-50);
+        padding: 2rem;
+        background-color: white;
+        border-radius: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .emptyCartButton {
+            padding-top: 4rem;
+
+            button {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                background: none;
+
+                span {
+                    padding-left: 0.5rem;
+                    font-weight: bold;
+
+                }
+
+                &:hover {
+                    filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+                }
+            }
+        }
+
+    }
+
+    padding-top: 10rem;
+    margin: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        padding-top: 4rem;
+    }
+}
+
+.linha-horizontal {
+    align-items: left;
+    margin-top: 0.5rem;
+    width: 80%;
+    border: 1px solid var(--gray-50);
+}
+
+.leftContainer {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+    .cartLeftContainer {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 0.5rem;
+        padding: 2rem;
+
+
+        align-items: center;
+        justify-content: center;
+
+        .titleCartLeft {
+            display: flex;
+            flex-direction: row;
+
+            .push {
+                margin-left: auto;
+
+                span {
+                    padding-left: 0.5rem;
+                    font-weight: bold;
+
+                }
+
+                button:hover {
+                    filter: invert(65%) sepia(93%) saturate(7428%) hue-rotate(241deg) brightness(86%) contrast(106%);
+                }
+            }
+        }
+
+        button {
+            border: none;
+            background: none;
+        }
+
+        li {
+            display: flex;
+
+            >*:first-child {
+                margin-top: 2rem;
+            }
+
+            >* {
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+
+            list-style-type: none;
+            flex-direction: column;
+
+            .infosProductBar {
+                padding-top: 0.5rem;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+
+                >*:first-child {
+                    margin-left: 0rem;
+                }
+
+                >*:nth-child(n+2):nth-child(-n+3) {
+                    margin-left: 1rem;
+                }
+
+                >*:nth-child(n+4):nth-child(-n+5) {
+                    margin-left: 4rem;
+                }
+
+                input {
+                    border: none;
+                    border-right: none;
+                    border-left: none;
+                    width: 3rem;
+                    line-height: 2rem;
+                    text-align: center;
+                    background-color: white;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                span {
+                    font-size: 1rem;
+                    align-self: center;
+                }
+
+                div {
+                    span {
+                        padding-left: 0.3rem;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .formLeftContainer {
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 0.5rem;
+        margin: 4rem 0;
+        
+        padding: 2rem;
+
+        align-items: center;
+        justify-content: center;
+
+        .formInfos {
+            margin-top: 2rem;
+
+            .inputContainer {
+
+                input,
+                select {
+                    border: 1px solid var(--gray-200);
+                    background-color: white;
+                    border-radius: 4px;
+                    height: 2rem;
+
+                    &::placeholder {
+                        padding-left: 0.3rem;
+                    }
+                }
+
+                >*:first-child {
+                    margin-left: 0rem;
+                }
+
+                >*:nth-child(4) {
+                    margin-left: 0rem;
+                }
+
+                >* {
+                    margin-left: 1rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+.cartDivisorContainer {
+    width: 25%;
+}
+
+.cartRightContainer {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 17rem;
+
+    width: 20%;
+    color: var(--gray-500);
+
+    .rightContent {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        h3,
+        a {
+            align-items: center;
+            padding-top: 2rem;
+
+            button {
+                padding: 1rem;
+                border: 1px solid var(--gray-50);
+                background-color: var(--purple-logo);
+                border-radius: 0.5rem;
+                color: white;
+            }
+        }
+    }
+
+
+}
