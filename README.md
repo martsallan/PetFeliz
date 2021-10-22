@@ -29,8 +29,8 @@ Projeto de um site e-commerce para PetShop realizado durante a disciplina de Pro
 Frontend (a partir da pasta raiz):
 
 ```bash
-	cd petfeliz-frontend
-	#then
+  cd petfeliz-frontend
+  #then
   npm install
   #or
   yarn install
