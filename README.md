@@ -14,8 +14,8 @@ Projeto de um site e-commerce para PetShop realizado durante a disciplina de Pro
 - HTML5
 - CSS
 - JavaScript
-- NodeJS
-- MongoDB
+- PHP
+- MySQL
 
 ## Alunos
 
