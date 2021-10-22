@@ -47,8 +47,8 @@ Frontend (a partir da pasta raiz):
 Backend (a partir da pasta raiz):
 
 ```bash
-	cd petfeliz-backend
-	#then
+  cd petfeliz-backend
+  #then
   composer install
   #then
   php artisan key:generate
